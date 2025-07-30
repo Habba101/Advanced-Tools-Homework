@@ -98,3 +98,40 @@ a {
   width: 1200px;
   height: auto;
 }
+
+@media (max-width: 600px) {
+  .hide-on-small {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 30px; /* optional: smaller headings */
+  }
+
+  .section-mango,
+  .section-travel,
+  .section-weather {
+    margin-top: 30px !important;
+    margin-bottom: 16px !important;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  .navigation-links {
+    margin-bottom: -100px;
+  }
+
+  .contact-link {
+    display: block;
+    width: fit-content;
+    margin: 16px auto 0;
+  }
+}
